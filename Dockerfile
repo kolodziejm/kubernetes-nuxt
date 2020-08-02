@@ -11,4 +11,5 @@ RUN ["npm", "install"]
 ENV NUXT_HOST 0.0.0.0
 EXPOSE 3000
 
+# Command to run on container start
 CMD ["npm", "run", "prod"]
